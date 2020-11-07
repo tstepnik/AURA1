@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6555baf0-b4de-41fd-90f9-ffafe5a39023" name="Default Changelist" comment="" />
+    <list default="true" id="6555baf0-b4de-41fd-90f9-ffafe5a39023" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/pages/WebToLead.page" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/WebToLead.page" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IlluminatedCloudWorkspaceSettings">
     <option name="moduleWorkspaceSettings">
@@ -26,6 +31,12 @@
             <entry key="AURA">
               <value>
                 <ConnectionWorkspaceSettings>
+                  <option name="buildSuccessDatesBySourceRootRelativePath">
+                    <map>
+                      <entry key="AURA/AS_DIVISIONSEARCH_DETAILS" value="1604752842647" />
+                      <entry key="PAGES/WEBTOLEAD.PAGE" value="1604753029553" />
+                    </map>
+                  </option>
                   <option name="lastBuildScope" value="CUSTOM" />
                   <option name="lastBuildViewToggles">
                     <map>
@@ -2449,6 +2460,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jxhlNyAgIus6W0cexrEls4Cbeu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -2473,7 +2485,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604751799680</updated>
       <workItem from="1604751802375" duration="214000" />
-      <workItem from="1604752017284" duration="823000" />
+      <workItem from="1604752017284" duration="1130000" />
     </task>
     <servers />
   </component>
