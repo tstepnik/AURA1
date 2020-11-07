@@ -1,0 +1,10 @@
+<!--
+ - Created by BRITENET on 22.10.2020.
+ -->
+
+<aura:documentation>
+    <aura:description>Documentation for AS_DivisionAccountForm</aura:description>
+    <aura:example name="AS_DivisionAccountForm" ref="AS_DivisionAccountForm" label="AS_DivisionAccountForm">
+        Example for AS_DivisionAccountForm
+    </aura:example>
+</aura:documentation>
