@@ -1,4 +1,4 @@
-<apex:page id="WebToLead" sideBar="false" showHeader="false" controller="AS_WebToLeadController">
+<apex:page id="WebToLead" sideBar="false" showHeader="false" controller="AS_WebToLeadController" standardStylesheets="false">
     <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"/>
     <style>
@@ -232,7 +232,7 @@
             font-size: 5rem;
             font-weight: bold;
         }
-        
+
     </style>
 
     <body>
@@ -323,19 +323,38 @@
     </script>
     </html>
     <style type='text/css'>
+        #fileUploadForm{
+            display: none;
+        }
         .embeddedServiceHelpButton .helpButton .uiButton {
-            background-color: #005290;
+            background-color: rgba(58, 58, 158, 0.8);
             font-family: "Arial", sans-serif;
         }
 
         .embeddedServiceHelpButton .helpButton .uiButton:focus {
-            outline: 1px solid #005290;
+            background-color: rgba(58, 58, 158, 0.8);
+
+        }
+        .embeddedServiceHelpButton .helpButton .helpButtonLabel .message {
+
+        }
+
+        .message{
+            background-color: rgba(0, 146, 218, 0.8);
+            text-decoration: none !important;
+        }
+
+        .embeddedServiceHelpButton .helpButton .content {
+            background-color: #46ff36 !important;
+        }
+        body button{
+            background: none;
         }
     </style>
 
     <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
     <script type='text/javascript'>
-        var initESW = function (gslbBaseURL) {
+        var initESW = function(gslbBaseURL) {
             embedded_svc.settings.displayHelpButton = true; //Or false
             embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
@@ -377,7 +396,7 @@
         if (!window.embedded_svc) {
             var s = document.createElement('script');
             s.setAttribute('src', 'https://athletic-stuff-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
-            s.onload = function () {
+            s.onload = function() {
                 initESW(null);
             };
             document.body.appendChild(s);
